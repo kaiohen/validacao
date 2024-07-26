@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>validação</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+  </head>
+  <body>
+    <div class="box">
+      <h1>Validaçaõ de CPF</h1>
+      <!-- CPF -->
+      <form id="cpfForm">
+        <label>Cpf:</label>
+        <input
+          id="cpf"
+          name="cpf"
+          maxlength="14"
+          type="text"
+          placeholder="xxx-xxx-xxx-xx"
+        />
+        <button type="submit">VALIDAR</button>
+      </form>
+      <!-- --------------- -->
+      <!-- mensagem se é valido ou não -->
+      <p id="message"></p>
+      <!-- ---- -->
+    </div>
+    <script src="cpf.js"></script>
+  </body>
+</html>
