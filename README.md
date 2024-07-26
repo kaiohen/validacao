@@ -19,7 +19,6 @@
 
 <p align="center">
   <a href="#descrição">descrição</a> &#xa0; | &#xa0; 
-  <a href="#imagem">imagem</a> &#xa0; | &#xa0;
   <a href="#explicação">explicação</a> &#xa0; | &#xa0;
   <a href="#tecnologias">Tecnologias</a> &#xa0; | &#xa0;
   <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">autor</a>
@@ -30,9 +29,6 @@
 ## descrição ##
 
  Projeto cria com intuito de validação de cpf e email, pode ser usado em telas de cadestros de bancos, empresas.
-
- ## imagem ##
-
 
 ## explicação ##
  Utilizando *JavaScript* para fazer a validação do email com uma **function** para chegar se o que foi digitado e realmente um email valido, se for valido aparecera uma mensagem falando que o email e valido, caso for invalido aparecera outra mensagem dizendo que não é valido.
